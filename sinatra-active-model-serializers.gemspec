@@ -48,8 +48,7 @@ Gem::Specification.new do |s|
     'spec/support/request_support.rb'
   ]
 
-  s.add_runtime_dependency 'sinatra', '~> 1.4'
-  s.add_runtime_dependency 'sinatra-contrib', '>= 1.4.1'
-  s.add_runtime_dependency 'activemodel', '~> 5.1.3'
+  s.add_runtime_dependency 'sinatra', '~> 2.0.5'
+  s.add_runtime_dependency 'activemodel', '~> 5.2.3'
   s.add_runtime_dependency 'active_model_serializers', '~> 0.10.0'
 end
