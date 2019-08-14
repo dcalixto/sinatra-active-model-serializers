@@ -1,7 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 
 require 'sinatra'
-require 'sinatra/contrib'
 require 'app/application'
 require 'rspec'
 require 'rack/test'
