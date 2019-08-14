@@ -51,5 +51,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'sinatra', '~> 1.4'
   s.add_runtime_dependency 'sinatra-contrib', '>= 1.4.1'
   s.add_runtime_dependency 'activemodel', '~> 5.1.3'
-  s.add_runtime_dependency 'active_model_serializers', '~> 0.9.0'
+  s.add_runtime_dependency 'active_model_serializers', '~> 0.10.0'
 end
