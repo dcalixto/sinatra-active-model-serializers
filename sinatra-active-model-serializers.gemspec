@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
    s.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
+  
   s.add_runtime_dependency 'sinatra', '>= 1.4'
   s.add_runtime_dependency 'sinatra-contrib', '>= 1.4.1'
   s.add_runtime_dependency 'activemodel', '>= 4.2.0'
@@ -30,7 +31,8 @@ Gem::Specification.new do |s|
   
   s.add_development_dependency 'rake', '>= 10.0'
   s.add_development_dependency 'rspec', '>= 3.1.0'
-
+  s.add_development_dependency 'json-schema', '>= 2.5.0'
+  s.add_development_dependency 'coveralls', '>= 0.8.2'
 
 
 end
